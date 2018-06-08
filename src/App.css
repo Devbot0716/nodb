@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 110px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/** BUTTON **/
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #B6CFE7;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px rgb(189, 186, 186);
+  margin: auto;
+}
+
+.button:hover {
+  background-color: #B6CFE7
+}
+
+.button:active {
+  background-color: #B2CCE6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*** NOT Button ***/
+img.food_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+a.source_site {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: 12px;
+}
+
+.recipeInfo {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+p {
+  color: gray;
+}
